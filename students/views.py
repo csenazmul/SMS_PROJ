@@ -14,7 +14,7 @@ def add_student(request):
         form = StudentForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success = 'Student record added successfully!'
+            messages.success(request, 'Student record added successfully!')
             return redirect('student_list')
     else:
         form = StudentForm()
@@ -26,7 +26,7 @@ def edit_student(request, id):
         form = StudentForm(request.POST, instance=student)
         if form.is_valid():
             form.save()
-            messages.success = 'Student record updated successfully!'
+            messages.success(request, 'Student record updated successfully!')
             return redirect('student_list')
     else:
         form = StudentForm(instance=student)
@@ -36,9 +36,11 @@ def delete_student(request, id):
     student = get_object_or_404(Student, id=id)
     if request.method == 'POST':
         student.delete()
-        messages.success = 'Student record deleted successfully!'
+        messages.success(request, 'Student record deleted successfully!')
         return redirect('student_list')
-    return render(request, 'students/student_confirm_delete.html', {'student': student})
+    return render(request, 'students/confirm_delete.html', {'student': student})
+
+
 # The student_list view retrieves all student records from the database and renders them in the student_list.html template.
 # The add_student view handles the form submission for adding a new student record to the database.
 # It creates a new StudentForm instance with the request data and saves the form if it is valid.
