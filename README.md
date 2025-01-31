@@ -5,10 +5,10 @@ Student Management System This project aims to provide a beginner-friendly yet p
 ![home](https://github.com/csenazmul/SMS_PROJ/blob/d6e5d8af38a47209166d75b0f7896cb544d39b8d/details_scr/home.png)
 
 # Add Student
-![add_student]()
+![add_student](https://github.com/csenazmul/SMS_PROJ/blob/c027166313f303574ef14269042ceb98b5f32b63/details_scr/edit_student.png)
 
 # Edit Student
-![edit_student]()
+![edit_student](https://github.com/csenazmul/SMS_PROJ/blob/c027166313f303574ef14269042ceb98b5f32b63/details_scr/edit_student.png)
 
 # Delete Student
-![delete_student]()
+![delete_student](https://github.com/csenazmul/SMS_PROJ/blob/c027166313f303574ef14269042ceb98b5f32b63/details_scr/delete_confirm.png)
