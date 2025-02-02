@@ -12,3 +12,12 @@ Student Management System This project aims to provide a beginner-friendly yet p
 
 # Delete Student
 ![delete_student](https://github.com/csenazmul/SMS_PROJ/blob/c027166313f303574ef14269042ceb98b5f32b63/details_scr/delete_confirm.png)
+
+# Admin Login
+![admin_login](https://github.com/csenazmul/SMS_PROJ/blob/4d3c728cfc7952bebddca023b42b84acc01f1802/details_scr/login.png)
+
+# Admin Dashboard
+![admin_dashboard](https://github.com/csenazmul/SMS_PROJ/blob/4d3c728cfc7952bebddca023b42b84acc01f1802/details_scr/Student%20Dashboad.png)
+
+# Admin Student Add
+![admin_student_add](https://github.com/csenazmul/SMS_PROJ/blob/4d3c728cfc7952bebddca023b42b84acc01f1802/details_scr/student_add.png)
